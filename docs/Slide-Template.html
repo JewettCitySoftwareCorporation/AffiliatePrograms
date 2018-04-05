@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+        <meta charset="utf-8">
+        <title>JCSC.biz - Slide Template</title>
+        <meta name="description" content="Slide Template for BlockChain Ventures">
+        <meta name="author" content="Luke@JCSC.biz">
+
+        <!--  
+            This HTML was produced By: Luke@jcsc.biz for our Affiliate Marketing Campain.
+                        
+             ____ ____ ____ ____ ____ ____ ____ ____ ____ ____ ____ ____ ____ 
+            ||L |||u |||k |||e |||@ |||j |||c |||s |||c |||. |||b |||i |||z ||
+            ||__|||__|||__|||__|||__|||__|||__|||__|||__|||__|||__|||__|||__||
+            |/__\|/__\|/__\|/__\|/__\|/__\|/__\|/__\|/__\|/__\|/__\|/__\|/__\|
+
+         -->
+        <meta ContentSRC="http://ProjectURL">
+        <meta name="viewport" content="width=800, user-scalable=no">
+        <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/meny.css">
+	
+
+
+		 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"> 
+
+        <!-- Style Sheets -->
+		<link rel="stylesheet" href="css/reveal.min.css" id="reveal">
+		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+        <!-- END Style Sheets -->
+
+        <!-- JavaScript -->
+
+		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+		<script>
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = 'css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );
+			}
+		</script>
+        <!-- END JavaScript -->
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+        
+            <div class="meny">
+                <h2>Table of Contents</h2>
+                <ul>
+                        <li><a href="cabode.html">Home</a></li>
+                        <li><a href="BP-Index.html">Table of Content</a></li>
+                        <li><a href="BusinessPlan-Slides.html">Plan - Slides</a></li>
+                        <li><a href="BusinessPlan-List.html">Plan - List</a></li>
+                        <li><a href="BusinessPlan-Tilt.html">Plan - Tilt</a></li>
+                        <li><a href="BreakEvenPoint.html">Break Even Point</a></li>
+                        <li><a href="BreakEvenPoint3.html">Break Even.#2</a></li>
+                        <li><a href="invoice-hosting.html">Invoice</a></li>
+                        <li><a href="Task%20List.html">Task List</a></li>
+                        <li><a href="#vTimeline">Time Line</a></li>
+                        <li><a href="PlanGantt.html">Gantt Chart</a></li>
+                        <li><a href="OrganizationChart.html">Org Chart</a></li>
+                        <li><a href="modalz.html">Modal Windows</a></li>
+                        <li><a href="loading.html">loading</a></li>
+                        <li><a href="404.html">404</a></li>
+                </ul>
+            </div>
+            <div class="meny-arrow"></div>
+            <!-- Any section element inside of this container is displayed as a slide -->
+
+            <div class="contents"><div class="reveal">
+
+
+    <div class="slides">
+        <section><h2>In the beging</h2><hr /></section>
+        <section><h3>Slide#2</h3></section>
+        <section>
+            <h1>THE END</h1>
+            <h3>BY: jcsc.biz</h3>
+        </section>
+    </div>
+</div>
+        </div>
+
+        <script src="js/meny.min.js"></script>
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+        
+        <script>
+            // Create an instance of Meny
+            var meny = Meny.create({
+                // The element that will be animated in from off screen
+                menuElement: document.querySelector('.meny'),
+
+                // The contents that gets pushed aside while Meny is active
+                contentsElement: document.querySelector('.contents'),
+
+                // [optional] The alignment of the menu (top/right/bottom/left)
+                position: Meny.getQuery().p || 'left',
+
+                // [optional] The height of the menu (when using top/bottom position)
+                height: 200,
+
+                // [optional] The width of the menu (when using left/right position)
+                width: 260,
+
+                // [optional] Distance from mouse (in pixels) when menu should open
+                threshold: 40,
+
+                // [optional] Use mouse movement to automatically open/close
+                mouse: true,
+
+                // [optional] Use touch swipe events to open/close
+                touch: true
+            });
+
+            // API Methods:
+            // meny.open();
+            // meny.close();
+            // meny.isOpen();
+
+            // Events:
+            // meny.addEventListener( 'open', function(){ console.log( 'open' ); } );
+            // meny.addEventListener( 'close', function(){ console.log( 'close' ); } );
+
+            // Embed an iframe if a URL is passed in
+            if (Meny.getQuery().u && Meny.getQuery().u.match(/^http/gi)) {
+                var contents = document.querySelector('.contents');
+                contents.style.padding = '0px';
+                contents.innerHTML = '<div class="cover"></div><iframe src="' + Meny.getQuery().u + '" style="width: 100%; height: 100%; border: 0; position: absolute;"></iframe>';
+            }
+        </script>
+        <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
